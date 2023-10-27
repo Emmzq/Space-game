@@ -1,0 +1,40 @@
+<!-- 
+    Emma Niemenmaa
+    27.10.2023
+    Sources:
+    1. https://phaser.discourse.group/t/phaser-is-not-defined/4979
+    2. https://stackoverflow.com/questions/10752055/cross-origin-requests-are-only-supported-for-http-error-when-loading-a-local
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"/> -->
+
+    <!-- I got help with getting Phaser to work from source 1 and 2. -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+    <!-- Phaser should be loaded first! -->
+
+    <script type="module" src="game-config.js"></script>
+    <script type="module" src="startScene.js"></script>
+    <script type="module" src="gameScene2.js"></script>
+    <script type="module" src="nextLevelScene.js"></script>
+    <!-- <script type="module" src="instructionsScene.js"></script> -->
+    <script type="module" src="restartScene.js"></script>
+    <script type="module" src="resultsScene.js"></script>
+    <script type="module" src="gameScene.js"></script>
+
+    <!--<script src="game.js"></script>-->
+    <title>Suepr Cool Space Game!</title>
+</head>
+<body>
+    <!--
+    <input type="text" id="playerNameInput" placeholder="Enter your name">
+    <button id="submitButton">Submit</button><br>
+    -->
+</body>
+</html>
